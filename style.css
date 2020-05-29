@@ -1,0 +1,189 @@
+*
+{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body
+{
+	/*background: #F3F2E7;*/
+	background: linear-gradient(45deg, #F2994A 0%, #F2C94C 100%);
+}
+.outer
+{
+	max-width: 1100px;
+	/*background: #CDCDCD;*/
+	margin: auto;
+}
+.outer header
+{
+	/*background: #F4F4F4;*/
+	padding: 30px 20px;
+	/*border-bottom: 2px solid #C1C1C1;*/
+	text-align: center;
+}
+.outer header h2
+{
+	font-family: arial;
+	font-size: 50px;
+	font-weight: bold;
+	font-variant: small-caps;
+	color: #373737;
+	text-align: center;
+}
+
+.outer header h2 span{ color: #Fff; }
+.outer header p span{ color: #000; font-weight: bold; }
+
+.outer header p
+{
+	font-family: arial;
+	font-size: 21px;
+	color: #fff;
+	/*padding: 15px;*/
+	letter-spacing: 2px;
+}
+.outer hr
+{
+ text-align: center;
+}
+
+.outer p
+{
+	text-align: center;
+	font-size: large;
+}
+.outer section
+{
+	/*background: #D6DBDB;*/
+	padding: 15px;
+}
+
+.outer section main
+{
+	background: rgb(189, 238, 189);
+	padding: 25px;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+.outer section main .container
+{
+	max-width: 320px;
+	/*background: orange;*/
+	border: 1px solid black;
+	border-radius: 5px;
+	margin: 10px;
+	overflow: hidden;
+	transition: .5s ease-in;
+	color: black;
+}
+.outer section main .container:hover .imgbox1,
+.outer section main .container:hover .imgbox2,
+.outer section main .container:hover .imgbox3,
+.outer section main .container:hover .imgbox4,
+.outer section main .container:hover .imgbox5,
+.outer section main .container:hover .imgbox6
+{
+	transform: scale(1.1);
+}
+.outer section main .container .imgbox1,
+.outer section main .container .imgbox2,
+.outer section main .container .imgbox3,
+.outer section main .container .imgbox4,
+.outer section main .container .imgbox5,
+.outer section main .container .imgbox6
+{
+	max-width: 100%;
+	height: 280px;
+	background-size: cover;
+	background-position: 0px margin: auto;
+	transition: .5s;
+}
+.outer section main .container .imgbox1
+{
+	background-image: url(7.jpg);
+}
+.outer section main .container .imgbox2
+{
+	background-image: url(8.jpg);
+}
+.outer section main .container .imgbox3
+{
+	background-image: url(9.jpg);
+}
+.outer section main .container .imgbox4
+{
+	background-image: url(10.jpg);
+}
+.outer section main .container .imgbox5
+{
+	background-image: url(11.jpg);
+}
+.outer section main .container .imgbox6
+{
+	background-image: url(12.jpg);
+}
+
+
+.outer section main .container .content
+{
+	/*background: #B4EDEA;*/
+	padding: 15px;
+}
+
+.outer section main .container .content h3
+{
+	font-family: arial;
+	padding: 10px 0;
+	text-align: center;
+	text-decoration-line: underline;
+}
+.outer section main .container .content h3:hover 
+{
+	background-color: pink;
+}
+.outer section main .container .content p
+{
+	font-family: arial;
+	line-height: 25px;
+}
+.bloglist h2
+{
+	font-family: arial;
+	line-height: 30px;
+	text-align: left;
+	padding-left: 10px;
+    text-decoration-line: underline;
+}
+.bloglist ol li p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
+.AboutUs h2
+{
+	font-family: arial;
+	line-height: 30px;
+	padding-top: 20px;
+	padding-left: 10px;
+	text-decoration-line: underline;
+}
+.AboutUs p
+{
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 20px;
+	padding-top: 10px;
+	padding-left: 25px;
+	padding-bottom: 10px;
+}
+.Navigation a
+{
+	font-family: arial;
+	line-height: 20px;
+	padding-top: 10px;
+	padding-left: 25px;
+}
